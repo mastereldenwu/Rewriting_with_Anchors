@@ -1,0 +1,1 @@
+~./llama.cpp/build/bin/llama-server   -m ../model/Deepseek-14b.gguf   -ngl 99   -c 16384   --port 8080   --host 0.0.0.0   --parallel 16   --batch-size 512   --ubatch-size 512   --threads 10   --no-warmup  --flash-attn --defrag-thold 0.2
